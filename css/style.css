@@ -275,11 +275,13 @@
 @media (min-width: 992px) {
     .container.feature {
         max-width: 100% !important;
+        padding: 0 15px; 
     }
-
+    
+    
     .feature-text  {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
-    }
+    }*/
 }
 
 @media (min-width: 1200px) {
@@ -293,7 +295,6 @@
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
-
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
